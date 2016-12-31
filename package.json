@@ -1,0 +1,42 @@
+{
+  "name": "MqttDlnaPlay",
+  "version": "0.0.1",
+  "description": "Dlna player controlled through mqtt",
+  "main": "lib/server.js",
+  "scripts": {
+    "start": "node lib/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "micro-app-framework": "^0.1.1",
+    "socket.io": "~1.3.7",
+    "mqtt": "~1.6.3",
+    "node-ssdp": "~3.0.0-beta2",
+    "xml2js": "~0.4.17",
+    "upnp-mediarenderer-client": "~1.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhdawson/MqttDlnaPlay.git"
+  },
+  "keywords": [
+    "iot",
+    "mqtt",
+    "dashboard",
+    "micro-app"
+  ],
+  "author": {
+    "name": "Michael Dawson"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhdawson/MqttDlnaPlay/issues"
+  },
+  "homepage": "https://github.com/mhdawson/MqttDlnaPlay#readme",
+  "contributors": [
+    {
+      "name": "Michael Dawson",
+      "email": "mdawson@devrus.com"
+    }
+  ]
+}
