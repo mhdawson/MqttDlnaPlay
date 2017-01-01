@@ -1,0 +1,10 @@
+{
+  "serverPort": 5010,
+  "MaxRecentActivity": 100,
+  "topic": "house/dlnaplay",
+  "mqttServerUrl": "tcp://10.1.1.186:1883",
+  "dlnaServerName": "New - Michaels Media Server",
+  "dlnaSearchRoot": "New(auto)",
+  "mediaPlayer": { "name": "TV-46C610",
+                   "UDN": "uuid:0c23e459-0793-6f51-45f9-5a4255bb8601" }
+}
