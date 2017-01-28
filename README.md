@@ -15,7 +15,7 @@ I current use it with [AlexaMqttBridge]
 (https://github.com/mhdawson/AlexaMqttBridge) so
 that we can simply say:
 
-```
+```bash
 Alexa ask Michael to play XXXX
 ```
 
@@ -26,6 +26,12 @@ we have not yet watched.
 I then also support the regular stop/start/seek
 type commands so that you can control the media
 being played once it is started.
+
+You can also ask what new shows are available with
+
+```bash 
+Alexa ask Michael what is new on TV
+```
 
 # Installation
 
