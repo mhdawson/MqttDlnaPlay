@@ -65,6 +65,11 @@ for example:
 No current episodes for:no show
 ```
 
+The micro-app provides a simple GUI which simply shows the requested commands
+and responses:
+
+![MqttDlnaPlay - GUI](https://raw.githubusercontent.com/mhdawson/MqttDlnaPlay/master/pictures/mqttdlnaplay.png)
+
 # Installation
 
 The easiest way to install is to run:
@@ -106,6 +111,11 @@ Configuration options include:
   of days a show will not be included in the response to the 'whats new'
   command.
 * ignore - list of show to exclude when responding to the 'whats new' command.
+
+As a micro-app the bridge also supports other options like authentication and
+tls for the GUI connection.  See the documentation for the
+[micro-app-framework](https://github.com/mhdawson/micro-app-framework)
+for additional details.
 
 ```json
 {
