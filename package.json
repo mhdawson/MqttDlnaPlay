@@ -13,7 +13,8 @@
     "mqtt": "~1.6.3",
     "node-ssdp": "~3.0.0-beta2",
     "xml2js": "~0.4.17",
-    "upnp-mediarenderer-client": "~1.2.4"
+    "upnp-mediarenderer-client": "~1.2.4",
+    "dlna-browser-utils": "~0.0.1"
   },
   "repository": {
     "type": "git",
